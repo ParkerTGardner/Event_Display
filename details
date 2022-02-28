@@ -3,11 +3,15 @@ Root commands:
 .L EventDisplay.C
 EventDisplay("*input root file name*", index in the tree of the event  you want to look at, so '2' for the second event, 3 for the 3rd one, etc.)
 
+Example:
+
+***
+
 root
 .L EventDisplay.C 
 EventDisplay("output_MC_5.root", 595)
 
-
+****
 
 Event: 8788 has 4 jets with a high jet N_ch
 Event: 3475 and 3388 both possibly interesting
